@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 1000px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    list-style-type: none;
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    background-color: steelblue;
+    color: white;
+    margin: 0%;
+    width: 100%;
+    padding: 10px 13px;
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    text-align: left;
+    padding: 20px 13px 13px 20px;
+    background-color: #ddd;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: steelblue;
+}
+
+.fa-plus {
+    float: right;
+}
+
+input:focus {
+    background: #fff;
+    border: 3px solid steelblue;
+    outline: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul:nth-of-type(even) {
+    background-color: #eee;
+}
+
+li {
+    height: 40px;
+    background: #fff;
+    line-height: 40px;
+    color: #666;
+}
+
+li:nth-last-child(even) {
+    background-color: #eee;
+}
+
+.mainContainer {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    width: 400px;
+}
+
+.input-style {
+    border: 3px solid blue;
+}
+
+.styleItems {
+    background-color: #ddd;
+}
+
+/* Placeholder Center */
+
+::-webkit-input-placeholder {
+    font-size: 20px;
+}
+
+/* Items that are clicked on */
+
+.clicked {
+    color: gray;
+    text-decoration: line-through;
+}
+
+span {
+    background: red;
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 0;
+    display: none;
+    margin-right: 20px;
+    
+    
+}
+
+li:hover span {
+    width: 40px;
+    display: inline-block;
+    
+}
+
